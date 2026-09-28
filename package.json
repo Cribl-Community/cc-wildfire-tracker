@@ -1,7 +1,7 @@
 {
   "name": "cc-visicore-wildfire-tracker",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -48,6 +48,26 @@
     "createAppScriptVersion": "1.1.0"
   },
   "tags": {
-    "product": []
-  }
+    "product": [
+      "stream",
+      "edge",
+      "search",
+      "lake"
+    ],
+    "domain": [
+      "observability",
+      "public-safety",
+      "situational-awareness"
+    ],
+    "dataType": [
+      "geospatial",
+      "incidents"
+    ],
+    "technology": [
+      "nifc",
+      "arcgis",
+      "wildfire"
+    ]
+  },
+  "description": "Live map of current US wildland fire incidents and perimeters from NIFC, with state and fire drill-down, served by Cribl backend endpoints."
 }
