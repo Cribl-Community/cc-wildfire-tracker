@@ -2,6 +2,16 @@
 
 Live map of every wildland fire incident currently tracked in the United States, with drill-down from the national view to a single fire's perimeter.
 
+## Screenshots
+
+Drilling into the Aspen Acres fire in Colorado: the map zooms to the full-resolution NIFC perimeter with county outlines, the table narrows to the state, and the drawer shows size, containment, command, and identifiers.
+
+![Wild Fire Tracker drilled into the Aspen Acres fire, showing its perimeter and the incident drawer](docs/screenshots/fire-drilldown-aspen-acres.png)
+
+The same view running inside the Cribl UI as an installed app.
+
+![Wild Fire Tracker running inside Cribl with the Aspen Acres drawer open](docs/screenshots/fire-drilldown-aspen-acres-in-cribl.png)
+
 ## Summary
 
 Wild Fire Tracker is a Cribl app for situational awareness of active US wildfires. It helps users see where fires are burning right now, understand how large and how contained each one is, and drill into any incident for command, jurisdiction, and perimeter details.
