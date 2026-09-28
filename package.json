@@ -1,0 +1,53 @@
+{
+  "name": "cc-visicore-wildfire-tracker",
+  "private": true,
+  "version": "1.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && apps build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "package": "apps package"
+  },
+  "dependencies": {
+    "@capra/core": "^1.16.0",
+    "@capra/dx-tokens-postcss-plugin": "^0.4.0",
+    "@capra/icons": "^1.10.1",
+    "@capra/theme": "^1.6.0",
+    "d3-geo": "^3.1.1",
+    "d3-selection": "^3.0.0",
+    "d3-transition": "^3.0.1",
+    "d3-zoom": "^3.0.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.4",
+    "topojson-client": "^3.1.0",
+    "us-atlas": "^3.0.1"
+  },
+  "devDependencies": {
+    "@cribl/apps": "1.1.0",
+    "@types/d3-geo": "^3.1.1",
+    "@types/d3-selection": "^3.0.12",
+    "@types/d3-transition": "^3.0.9",
+    "@types/d3-zoom": "^3.0.8",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@types/topojson-client": "^3.1.5",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  },
+  "displayName": "Wild Fire Tracker",
+  "author": "VisiCore Tech - Andrew Hendrix",
+  "cribl": {
+    "type": "app",
+    "createAppScriptVersion": "1.1.0"
+  },
+  "tags": {
+    "product": []
+  }
+}

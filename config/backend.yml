@@ -1,0 +1,17 @@
+# Backend endpoint declaration. Each endpoint is an HTTP handler that runs on the Cribl platform.
+# Both endpoints call NIFC's public WFIGS ArcGIS services (declared in config/proxies.yml) so the
+# browser never talks to NIFC directly.
+
+runtime: js
+
+endpoints:
+  - name: incidents
+    script: backend/incidents.ts
+    description: "Current US wildland fire incidents from NIFC WFIGS, normalized for the map and table"
+    timeout: 60
+    memory: 256
+  - name: perimeters
+    script: backend/perimeters.ts
+    description: "Current fire perimeters as GeoJSON (all, generalized) or one fire at full precision via ?irwinId="
+    timeout: 60
+    memory: 512

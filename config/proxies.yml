@@ -1,0 +1,15 @@
+# External API declaration. Declare domains your app needs to reach.
+# At install time, admins see exactly which endpoints the app will use.
+
+# NIFC (National Interagency Fire Center) WFIGS ArcGIS feature services. Public, read-only, no key.
+# Used by the backend endpoints in config/backend.yml.
+services3.arcgis.com:
+  timeout: 60000
+  paths:
+    allowlist:
+      - /T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_Current/
+      - /T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Interagency_Perimeters_Current/
+  headers:
+    allowlist:
+      - accept
+      - content-type

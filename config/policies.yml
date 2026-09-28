@@ -1,0 +1,6 @@
+# Product API access declaration. Declare Cribl product API paths your app needs to access.
+# At install time, admins see exactly which platform resources the app will use.
+#
+# Wild Fire Tracker reads no Cribl product APIs. Its only platform calls are the app-scoped
+# KV store (user filter preferences) and its own backend endpoints, both granted automatically.
+policies: []
